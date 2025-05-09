@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple E-commerce Website</title>
+ <link rel="stylesheet" href="ecomme.css">
+</head>
+<body>
+  <header>
+    <h1>My E-Commerce Store</h1>
+    <img src="logo11.jpeg" alt="logo1" id="image1" style="clip-path: circle(50%); height: 200px">
+   
+    <img src="logo1.jpeg" alt="logo2" id="image2" style="clip-path: circle(50%); height: 200px">
+  </header>
+  <br>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search songs.............">
+</div>
+
+  <main>
+    <di class="product-list">
+      <div class="product">
+        <img src="fruit1.jpeg" alt="Product 1" />
+        <h3>STRAWBERRY</h3>
+        <p>$29.99</p>
+        <button onclick="addToCart('strawberry', 29.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="fruit2.jpeg"alt="ORANGE "/>
+        <h3>ORANGE</h3>
+        <p>$49.99</p>
+        <button onclick="addToCart('ORANGE', 49.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="frut3.jpeg" alt="Product 3" />
+        <h3>MANGO</h3>
+        <p>$19.99</p>
+        <button onclick="addToCart('MANGO', 19.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="frut4.jpeg" alt="Product 4" />
+        <h3>APPLE</h3>
+        <p>$39.99</p>
+        <button onclick="addToCart('APPLE', 39.99)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="br1.jpeg" alt="Product 5" />
+        <h3>STIE-FRYING</h3>
+        <p>$18.99</p>
+        <button onclick="addToCart('STIE-FRYING', 18.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="br2.jpeg" alt="Product 6" />
+        <h3>COOKWARE-SET</h3>
+        <p>$17.99</p>
+        <button onclick="addToCart('COOKWARE SET', 17.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="br3.jpg" alt="Product 7" />
+        <h3>POT OR VESSEL</h3>
+        <p>$49.99</p>
+        <button onclick="addToCart('POT OR VESSEL', 49.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="br4.jpeg" alt="Product 8" />
+        <h3>ceramic</h3>
+        <p>$45.99</p>
+        <button onclick="addToCart('ceramic', 45.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="vg1.jpeg" alt="Product 9" />
+        <h3>LADYFINGER</h3>
+        <p>$40.99</p>
+        <button onclick="addToCart('LADYFINGER', 40.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="vg4.jpeg" alt="Product 10" />
+        <h3>TOMATO</h3>
+        <p>$20.99</p>
+        <button onclick="addToCart('TOMATO', 20.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="vg3.jpeg" alt="Product 11" />
+        <h3>SHIMLA MIRCH</h3>
+        <p>$35.99</p>
+        <button onclick="addToCart('SHIMLA MIRCH', 35.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="vg2.jpeg" alt="Product 12" />
+        <h3>CUCUMBER</h3>
+        <p>$15.99</p>
+        <button onclick="addToCart('CUCUMBER', 15.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="gr1.jpeg" alt="Product 13" />
+        <h3>LENTILS</h3>
+        <p>$49.99</p>
+        <button onclick="addToCart('LENTILS', 49.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="gr2.jpeg" alt="Product 14" />
+        <h3>Product 14</h3>
+        <p>$29.99</p>
+        <button onclick="addToCart('CLEANING SUPPLIES', 29.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="gr3.jpeg" alt="Product 15" />
+        <h3>SPICES</h3>
+        <p>$59.99</p>
+        <button onclick="addToCart('SPICES', 59.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="gr4.jpeg" alt="Product 16" />
+        <h3>PERSONAL CARE ITEMS</h3>
+        <p>$19.99</p>
+        <button onclick="addToCart('PERSONAL CARE ITEMS', 19.99)">Add to Cart</button>
+      </div>
+
+    </div>
+    <div class="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="total">0.00</span></p>
+    </div>
+    
+  </main>
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store. All rights reserved.</p>
+    <br>
+    <p>&copy; Email id  mystore4141@gmail.com</p>
+<br>
+    <p>&copy; Contact 987653210</p>
+  </footer>
+  <script src="ecomm.js">
+   
+  </script>
+</body>
+</html>
