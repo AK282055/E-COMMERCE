@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+header {
+    position:relative;
+    background-color: #2cbaf1;
+    color: white;
+  padding-left: 1rem;
+  margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 1520px;
+}
+.logo h1 {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+    font-size: 1.5rem;
+}
+input{
+    padding-top: 10px;
+    width: 500px;
+    border-radius: 25px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    padding-right: 40px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header nav ul li a:hover {
+    color: blue;
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .product {
+    background-color: rgb(245, 247, 245);
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #f3eeee;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+  }
+  .product button {
+    background-color: #0cc515;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .product button:hover {
+    background-color: #f72c25;
+  }
+  .cart {
+    padding: 20px;
+    background-color: #2cbaf1;
+    margin: 20px;
+    border: 1px solid #c9e0cd;
+    border-radius: 5px;
+    font-size: 2rem;
+  }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <h1>Nature Basket</h1></div>
+    <nav>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="contact.html">contact us</a></li>
+             <li><a href="about.html">About us</a></li>
+    </ul>
+    </nav>
+  </header>
+            <div>
+                <img src="homepage.jpg" alt="grocery image" height="390" width="1030">
+            </div>
+            <footer class="footer">
+              
+                <div class="footer-container">
+                  <div class="footer-section">
+                    <h2>About Us</h2>
+                    <p>
+                      Grocery is your one-stop destination for fresh and
+                      high-quality grocery items.
+                      We deliver within 15 minutes to ensure freshness at your
+                      doorstep.
+                    </p>
+                  </div>
+              
+                  <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Shop</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">contact us</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="footer-section newsletter">
+                   
+<form id="contact-form">
+    <input type="text" name="from_name" placeholder="Your Name" required><br>
+    <input type="email" name="from_email" placeholder="Your Email" required><br>
+    <textarea name="message" placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Email</button>
+  </form>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    // Initialize EmailJS
+    (function() {
+      emailjs.init("YOUR_USER_ID"); // replace with your EmailJS user ID
+    })();
+
+    // Form submission
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        .then(() => {
+          alert("Message sent!");
+        }, (error) => {
+          alert("Failed to send: " + JSON.stringify(error));
+        });
+    });
+  </script>
+                  </div>
+                </div>
+              
+                <div class="footer-bottom">
+                  <h1>&copy; 2025 Nex Coder. All rights reserved.</h1>
+
+                </div>
+          
+              </footer>
+        <script src="script.js"></script>
+              </body>
+              
+</html>
