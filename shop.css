@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    width: 1520px;
+    width: 1300px;
 }
 .logo h1 {
   padding-left: 20px;
@@ -71,11 +71,4 @@ header nav ul li a:hover {
   .product button:hover {
     background-color: #f72c25;
   }
-  .cart {
-    padding: 20px;
-    background-color: #2cbaf1;
-    margin: 20px;
-    border: 1px solid #c9e0cd;
-    border-radius: 5px;
-    font-size: 2rem;
-  }
+  

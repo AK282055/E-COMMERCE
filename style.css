@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    width: 1520px;
+    width: 1320px;
 }
 
 .logo h1 {
@@ -49,8 +49,8 @@ header nav ul li a:hover {
 img{
   margin-top: 10px;
     padding-left: 20px;
-  width: 1530px;
-  height: 800px;
+  width: 1300px;
+  height: 500px;
   animation: click 1s ease backwards;
 }
 @keyframes click{
@@ -65,7 +65,7 @@ img{
     background-color: green;
     height: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 1530px;
+    width: 1300px;
     color: white;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ img{
 main {
     padding: 0px;
      margin: 0px;
-     width: 1565px;
+     width: 1300px;
     text-align: center;
 }
   #cart-section {
